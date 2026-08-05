@@ -1,5 +1,5 @@
-let platKendaraan = [3, 5, 1, 8, 9];
-let tanggal = [17, 20, 25, 10, 18];
+const platKendaraan = [3, 5, 1, 8, 9];
+const tanggal = [17, 20, 25, 10, 18];
 
 function filterParkirGanjilGenap(platKendaraan, tanggal) {
     for (let i = 0; i < platKendaraan.length; i++) {
