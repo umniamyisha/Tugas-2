@@ -1,14 +1,14 @@
-let kalori = [1800, 2200, 2500, 1900, 2100];
+const kalori = [1800, 2200, 2500, 1900, 2100];
 
 function evaluasiAsupanKalori (dataKalori, target){
     for (let i = 0; i < dataKalori.length; i++) {
 
      if (dataKalori[i] > target) {
-            console.log("melebihi target");
+            console.log(`${kalori[i]} :melebihi target`);
         } else if (dataKalori[i] < target) {
-            console.log("kurang dari target");
+            console.log(`${kalori[i]} :kurang dari target`);
         } else {
-            console.log("pas");
+            console.log(`${kalori[i]} :pas`);
         }
     }
 

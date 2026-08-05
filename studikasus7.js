@@ -10,7 +10,7 @@ function filterRestoranFavorit (Restoran) {
      if (Restoran[i]. rating >= 4.5 && Restoran[i].buka === true) {
         console.log(Restoran[i].nama);
     }
-  }
+  } 
 }
 
  filterRestoranFavorit(Restoran);    
